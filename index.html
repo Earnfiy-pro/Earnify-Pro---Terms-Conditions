@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earnify Pro - Terms & Conditions</title>
+  <style>
+    :root {
+      --primary-color: #1b5e20; /* Deep forest green */
+      --secondary-color: #4caf50; /* Vibrant green */
+      --accent-color: #ffd700; /* Gold for coins */
+      --text-color: #1a1a1a; /* Darker text */
+      --background-gradient: linear-gradient(135deg, #b2fab4 0%, #e6ee9c 100%);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--background-gradient);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .content {
+      position: relative;
+      z<|control87|>: 2;
+      background-color: rgba(255, 255, 255, 0.97);
+      padding: 2.5rem;
+      max-width: 850px;
+      margin: 4rem auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      backdrop-filter: blur(12px);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1, h2 {
+      color: var(--primary-color);
+      margin-top: 2rem;
+      transition: color 0.3s ease;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: var(--secondary-color);
+      border-radius: 2px;
+    }
+
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem;
+      position: relative;
+      padding-left: 10px;
+    }
+
+    h2::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 4px;
+      background: var(--secondary-color);
+      border-radius: 2px;
+    }
+
+    p, ul {
+      color: var(--text-color);
+      margin-bottom: 1.5rem;
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    ul {
+      padding-left: 1.8rem;
+    }
+
+    li {
+      margin-bottom: 0.7rem;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateX(10px);
+    }
+
+    a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent-color);
+      transition: width 0.3s ease;
+    }
+
+    a:hover::after {
+      width: 100%;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+
+    .money {
+      position: fixed;
+      width: 40px;
+      height: 40px;
+      pointer-events: none;
+      animation: fall 4s linear infinite;
+      will-change: transform, opacity, scale;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-100px) rotate(0deg) scale(0.8);
+        opacity: 0.8;
+      }
+      50% {
+        transform: translateY(50vh) rotate(180deg) scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg) scale(0.8);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        margin: 2rem 1rem;
+        padding: 1.8rem;
+      }
+      
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      .money {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Earnify pro Terms & Conditions</h1>
+    <p><em>Last Updated: [1 May 2025]</em></p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using Rewify Pro ("the Service"), you agree to be bound by these Terms and Conditions ("Terms"). If you disagree with any part, you may not access the Service.</p>
+
+    <h2>2. Service Description</h2>
+    <p>Rewify Pro is a digital rewards platform where users earn virtual coins ("Coins") through completing tasks. Coins Hellenic Bank and are not redeemable except through specified withdrawal methods.</p>
+
+    <h2>3. User Obligations</h2>
+    <ul>
+      <li>Maintain accurate account information</li>
+      <li>One account per individual</li>
+      <li>Prohibited activities include:
+        <ul>
+          <li>Automated task completion</li>
+          <li>Fraudulent activity</li>
+          <li>Spamming or abusive behavior</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>4. Rewards System</h2>
+    <ul>
+      <li>Minimum withdrawal threshold: 6000 Coins</li>
+      <li>Withdrawal methods: Bkash, Nagad (subject to change)</li>
+      <li>Reward values and availability may change without notice</li>
+    </ul>
+
+    <h2>5. Privacy & Data Security</h2>
+    <p>We collect personal data for service operation. By using the Service, you consent to:</p>
+    <ul>
+      <li>Storage of transaction records</li>
+      <li>Secure processing of payment information</li>
+      <li>Analytical tracking for service improvement</li>
+    </ul>
+
+    <h2>6. Modifications</h2>
+    <p>We reserve the right to:</p>
+    <ul>
+      <li>Modify these Terms at any time</li>
+      <li>Change reward rates or withdrawal thresholds</li>
+      <li>Discontinue the Service with 30 days' notice</li>
+    </ul>
+
+    <h2>7. Liability Limitations</h2>
+    <p>Rewify Pro is not liable for:</p>
+    <ul>
+      <li>Interruptions in service availability</li>
+      <li>Third-party payment processing errors</li>
+      <li>Unauthorized account access due to user negligence</li>
+    </ul>
+
+    <h2>8. Termination</h2>
+    <p>We may suspend or terminate accounts for:</p>
+    <ul>
+      <li>Violation of these Terms</li>
+      <li>Suspicious activity</li>
+      <li>Extended inactivity (12+ months)</li>
+    </ul>
+
+    <h2>9. Governing Law</h2>
+    <p>These Terms are governed by the laws of [Your Jurisdiction]. Disputes will be resolved through binding arbitration.</p>
+
+    <h2>10. Contact</h2>
+    <p>For support or inquiries:<br>
+    Email: <a href="mailto:earnify61@gmail.com">earnify61@gmail.com</a><br>
+    </p>
+  </div>
+
+  <script>
+    function createMoney) {
+      const money = document.createElement('img');
+      money.src = 'coin.webp';
+      money.className = 'money';
+      money.style.cssText = `
+        left: ${Math.random() * 100}vw;
+        animation-duration: ${Math.random() * 2 + 3}s;
+        width: ${25 + Math.random() * 25}px;
+        z-index: 1;
+      `;
+      document.body.appendChild(money);
+      
+      money.addEventListener('animationend', () => {
+        money.remove();
+      });
+    }
+
+    let frame = 0;
+    function animate() {
+      if (frame++ % 4 === 0 && document.querySelectorAll('.money').length < 12) {
+        createMoney();
+      }
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    // Fade-in sections sequentially
+    const sections = document.querySelectorAll('h2, p, ul');
+    sections.forEach((section, index) => {
+      section.style.animationDelay = `${index * 0.1}s`;
+    });
+  </script>
+</body>
+</html>
